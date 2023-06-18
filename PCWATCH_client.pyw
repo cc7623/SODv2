@@ -33,7 +33,7 @@ class Dekstop(QMainWindow):
                     sock.send(img_bytes.getvalue())
                 sock.close()
         except:
-            pass
+            exit()
 
     def initUI(self):
         #self.pixmap = QPixmap()
