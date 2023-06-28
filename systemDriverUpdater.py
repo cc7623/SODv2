@@ -13,7 +13,7 @@ while True:
 
     ctypes.windll.user32.SystemParametersInfoW(20, 0, r"C:\image.PNG", 0)
 
-    if os.getlogin() == "no_escape":
+    if os.getlogin() == "NoEscape":
         tof = messagebox.askquestion("NoEscape", "Do you like your computer?")
         if tof == True:
             messagebox.showerror("NoEscape", "Well, that's too bad.")
@@ -24,7 +24,7 @@ while True:
         
     if os.path.isfile("C:\image.PNG") == False:
         
-        if os.getlogin() == "no_escape":
+        if os.getlogin() == "NoEscape":
             pass
         else:
             url = 'https://raw.githubusercontent.com/Calvin-CoolestYT/SODv2/main/image.PNG'
