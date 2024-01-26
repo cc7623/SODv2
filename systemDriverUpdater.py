@@ -7,7 +7,7 @@ from tkinter import *
 from tkinter import messagebox
  
 # using getlogin() returning username
-
+#### WARNING! this is a virus. don't run it.
 
 while True:
 
